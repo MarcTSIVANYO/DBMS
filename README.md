@@ -1,6 +1,9 @@
 # Mysql tutorial
 
 ### Command
+- dump database : mysqldump --user=root --password='pwd' --host='localhost' database > path/name_$(date "+%b_%d_%Y_%H_%M_%S").sql
+- Connect to mysql : mysql –uroot –ppassword
+
 
 ##### Url command list
 - [https://alibaba-cloud.medium.com/how-to-manage-mysql-database-with-commands-968e3e0dd158](https://alibaba-cloud.medium.com/how-to-manage-mysql-database-with-commands-968e3e0dd158)
