@@ -1,15 +1,8 @@
-# PL-SQL-script
-Tutorial sql 
+# Mysql tutorial
 
-# ORACLE
+### Command
 
-- As : Select nom as Nom or nom Nom, or nom "Nom" from ...
-- Concatenation : select nom || prenom "Nom Prénoms" from ..
+##### Url command list
+- (https://alibaba-cloud.medium.com/how-to-manage-mysql-database-with-commands-968e3e0dd158)
+- (https://medium.com/@mandeepkaur1/a-list-of-mysql-commands-c4d0d244aa5c) 
 
-
-###Command
-- DESCRIBE 'Nom de la table'
-
-
-### Skills
-- SQL, PL/SQL and Application Express (APEX)
