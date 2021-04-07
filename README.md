@@ -3,6 +3,7 @@
 ### Command
 - dump database : mysqldump --user=root --password='pwd' --host='localhost' database > path/name_$(date "+%b_%d_%Y_%H_%M_%S").sql
 - Connect to mysql : mysql –uroot –ppassword
+- Download result query into csv file :  mysql –uROOT –pPWD "SELECT * FROM zones;" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" >zones.csv
 
 
 ##### Url command list
