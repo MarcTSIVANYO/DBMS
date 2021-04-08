@@ -14,12 +14,15 @@ shell> mysql db_name < backup-file.sql
 The same in Windows command prompt:
 
 mysql -p -u [user] [database] < backup-file.sql
+
 PowerShell
 
 C:\> cmd.exe /c "mysql -u root -p db_name < backup-file.sql"
+
 MySQL command line
 
 mysql> use db_name;
+
 mysql> source backup-file.sql;
 
 
