@@ -5,8 +5,7 @@
 - Connect to mysql : mysql –uroot –ppassword
 - Download result query into csv file :  mysql –uROOT –pPWD "SELECT * FROM zones;" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" >zones.csv
 - Copy folder or data : scp -P ***  root@nameserver:path/to/file C:\Users\Marc\Desktop
-
--Import data from backup file into table : [Source](https://stackoverflow.com/questions/17666249/how-do-i-import-an-sql-file-using-the-command-line-in-mysql) 
+- **Import data from backup file into table :** [Source](https://stackoverflow.com/questions/17666249/how-do-i-import-an-sql-file-using-the-command-line-in-mysql) 
 You can load the dump file back into the server like this:
 
 UNIX
