@@ -7,6 +7,8 @@
 - Copy folder or data : scp -P ***  root@nameserver:path/to/file C:\Users\Marc\Desktop
 - Copy folder the local to ssh :  scp -r -P PORT dossier user@domain:url/to/path
 - **Import data from backup file into table :** [Source](https://stackoverflow.com/questions/17666249/how-do-i-import-an-sql-file-using-the-command-line-in-mysql) 
+- Create table from another : Create table abc select * from def limit 0
+
 You can load the dump file back into the server like this:
 
 UNIX
