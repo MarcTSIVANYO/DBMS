@@ -1,0 +1,29 @@
+CREATE TABLE PTBL_TRANSACTION
+(Transaction_ID NUMBER(6,0) NOT NULL,
+Product_ID NUMBER(3,0) NOT NULL,
+Reference_Order_ID NUMBER(5,0) NOT NULL,
+Transaction_Date DATE NOT NULL,
+Transaction_Type CHAR(1 BYTE) NOT NULL,
+Quantity NUMBER(4,0) NOT NULL,
+Actual_Cost NUMBER(8,4) NOT NULL);
+
+
+CREATE TABLE ptbl_Product
+(Product_ID NUMBER(3,0) NOT NULL,
+Product_Name VARCHAR2(40) NOT NULL,
+Standard_Cost NUMBER(8,4) NOT NULL,
+List_Price NUMBER(7,3) NOT NULL,
+Weight NUMBER(6,2) NULL,
+Product_Line CHAR(2 CHAR) NULL,
+Product_Subcategory_ID NUMBER(2,0) NULL
+);
+
+CREATE TABLE ptbl_Subcategory 
+(Product_Subcategory_ID NUMBER(2,0),
+Product_Category_ID NUMBER(1,0),
+Subcategory_Name VARCHAR2(30)
+);
+
+CREATE TABLE  ptbl_Category
+(Product_Category_ID NUMBER(1,0),
+Category_Name VARCHAR(20)
